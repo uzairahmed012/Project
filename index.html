@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wrist Code - Handwritten Digit Recognition</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>WRIST CODE</h1>
+    <div class="dropdown">
+      <button>Dropdown Menu</button>
+      <div class="dropdown-content">
+        <a href="#">Import from gallery →</a>
+        <a href="#">Beta</a>
+        <a href="#">Choose from web</a>
+      </div>
+    </div>
+  </div>
+  <div class="main-section">
+    <div class="left-buttons">
+      <a href="#" class="button">Import from gallery</a>
+      <a href="#" class="button">Capture Picture</a>
+      <a href="#" class="button">Back</a>
+    </div>
+    <div class="content">
+      <canvas id="digitCanvas" width="200" height="200"></canvas>
+      <div class="feedback">
+        <h2>Recognized Digit:</h2>
+        <div id="recognizedDigit"></div>
+        <p id="accuracyIndicator">Confidence Level: </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
